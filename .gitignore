@@ -1,0 +1,24 @@
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+*.iml
+.idea/
+.DS_Store
+
+# Large native core (see scripts/download-libv2ray.ps1)
+app/libs/libv2ray.aar
+app/libs/libv2ray.zip
+app/libs/libv2ray_aar_extract/
+app/libs/libbox.aar
+app/libs/libbox-sources.jar
+app/libs/libv2ray-sources.jar
+app/libs/classes.jar
+app/libs/io/
+
+# Local diagnostics (may contain sensitive logs)
+adb-logs/
+
+# APK outputs (build locally or CI)
+*.apk
+*.aab
