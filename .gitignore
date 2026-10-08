@@ -19,6 +19,6 @@ app/libs/io/
 # Local diagnostics (may contain sensitive logs)
 adb-logs/
 
-# APK outputs (build locally or CI)
-*.apk
+# APK in tree only under releases/ (Git LFS); build outputs ignored via **/build/
 *.aab
+**/build/

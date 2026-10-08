@@ -21,6 +21,15 @@ powershell -ExecutionPolicy Bypass -File scripts/download-libv2ray.ps1
 
 APK: `app/build/outputs/apk/debug/app-debug.apk`
 
+## Скачать готовый APK (1.9.2)
+
+Файл в репозитории (Git LFS, ~147 МБ):
+
+**[releases/TacticalVPN-1.9.2-debug.apk](https://github.com/andrey-kv13/TacticalVPN/blob/main/releases/TacticalVPN-1.9.2-debug.apk)**
+
+На странице файла на GitHub нажмите **Download** (или ⋮ → Download).  
+Если клонировали git без LFS: `git lfs pull` или скачивайте через браузер по ссылке выше.
+
 ## Установка
 
 1. Установи APK на телефон.
